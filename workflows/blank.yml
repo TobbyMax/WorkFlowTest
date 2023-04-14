@@ -7,7 +7,7 @@ name: build cpp
 on:
   push:
     branches: ["main"]
-   pulLrequest:
+  pull_request:
     branches: ["main"]
     
   workflow_dispatch:
